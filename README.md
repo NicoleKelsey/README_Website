@@ -1,96 +1,70 @@
-# Project Name: Randomizer 9000
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Randomizer 9000 Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
 
-## Description
+        header {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
 
-Welcome to the Randomizer 9000 project! This project is all about generating randomness in a fun and creative way. Whether you're looking for inspiration, making decisions, or just want to add some unpredictability to your life, the Randomizer 9000 has got you covered.
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
 
-## Features
+        h1 {
+            font-size: 24px;
+        }
 
-- **Random Number Generator:** Generate random numbers within a specified range with just a click.
+        p {
+            font-size: 16px;
+        }
 
-- **Random Word Generator:** Need a creative spark? Get a random word to kickstart your imagination.
+        footer {
+            text-align: center;
+            background-color: #007bff;
+            color: white;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Randomizer 9000</h1>
+        <p>Your Source for Random Fun!</p>
+    </header>
+    
+    <main>
+        <h2>About</h2>
+        <p>Welcome to the Randomizer 9000 project! This project is all about generating randomness in a fun and creative way. Whether you're looking for inspiration, making decisions, or just want to add some unpredictability to your life, the Randomizer 9000 has got you covered.</p>
 
-- **Decision Maker:** Can't decide what to have for lunch? Let the Decision Maker make the tough choices for you.
+        <h2>Features</h2>
+        <ul>
+            <li><strong>Random Number Generator:</strong> Generate random numbers within a specified range with just a click.</li>
+            <li><strong>Random Word Generator:</strong> Need a creative spark? Get a random word to kickstart your imagination.</li>
+            <!-- Add more features here -->
+        </ul>
 
-- **Random Quotes:** Get a daily dose of inspiration with a random quote.
+       
+    </main>
 
-- **Random Colors:** Discover new color combinations for your design projects.
-
-## Getting Started
-
-### Prerequisites
-
-To run the Randomizer 9000, you'll need:
-
-- Python 3.7 or higher
-- pip package manager
-
-### Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/your-username/randomizer-9000.git
-   ```
-
-2. Navigate to the project directory:
-
-   ```bash
-   cd randomizer-9000
-   ```
-
-3. Install the required packages:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-### Usage
-
-- To generate a random number, run:
-
-  ```bash
-  python random_number.py
-  ```
-
-- To get a random word, run:
-
-  ```bash
-  python random_word.py
-  ```
-
-- For making decisions, use the Decision Maker:
-
-  ```bash
-  python decision_maker.py
-  ```
-
-- To get a random quote, run:
-
-  ```bash
-  python random_quote.py
-  ```
-
-- Explore random color combinations:
-
-  ```bash
-  python random_colors.py
-  ```
-
-## Contributing
-
-We welcome contributions from the community! If you have any ideas for new randomization features or improvements, please open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- Special thanks to the creators of randomization algorithms and libraries that make this project possible.
-
-## Contact
-
-If you have any questions or suggestions, feel free to reach out to us at randomizer9000@example.com.
-
-Happy randomizing!
+    <footer>
+        &copy; 2023 Randomizer 9000
+    </footer>
+</body>
+</html>
